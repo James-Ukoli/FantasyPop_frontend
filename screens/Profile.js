@@ -1,5 +1,5 @@
 import React from "react";
 
-function Profile() {}
+// Own Users Profile (following/followers, and recent posts)
 
-export default Profile;
+export default function Profile() {}

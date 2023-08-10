@@ -1,5 +1,3 @@
 import React from "react";
 
-function PopsFeed() {}
-
-export default PopsFeed;
+export default function PopsFeed() {}

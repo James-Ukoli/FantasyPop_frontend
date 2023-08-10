@@ -1,5 +1,5 @@
 import React from "react";
 
-function FollowingPops() {}
+// Users get to see of other user accounts they follow
 
-export default FollowingPops;
+export default function FollowingPops() {}

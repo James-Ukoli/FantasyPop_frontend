@@ -1,14 +1,17 @@
 import React from "react";
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, Button } from "react-native";
+
+// import BottomNavigation from "./components/BottomNavigation";
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Text>Open up App.js to start working on your app!</Text>
-      <Text> Day 8/7/23 </Text>
-      <Text>QR Scan pls work on my ios device</Text>
+      <Text>8/10/23 - Trying to Test Bottom and eslint</Text>
+      {/* <BottomNavigation/> */}
       <StatusBar style="auto" />
+      <Button styles={styles.button} title="Hey!" />
     </View>
   );
 }
@@ -18,7 +21,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "gray",
     alignItems: "center",
     justifyContent: "center",
   },

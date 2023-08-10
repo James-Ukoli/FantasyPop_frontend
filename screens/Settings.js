@@ -1,5 +1,5 @@
 import React from "react";
 
-function Settings() {}
+// All your settings here (Edit/Update/Change Profile, Notifications)
 
-export default Settings;
+export default function Settings() {}
